@@ -7,7 +7,8 @@ void permute(string a, int l, int r)
 {
     if(l == r)
     {
-        cout<<a<<endl;
+            if(a.find("AB") == string::npos)
+            cout<<a<<endl;
     }
     else
     {
